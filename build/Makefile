@@ -254,6 +254,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named Spawn_turtle
+
+# Build rule for target.
+Spawn_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Spawn_turtle
+.PHONY : Spawn_turtle
+
+# fast build rule for target.
+Spawn_turtle/fast:
+	$(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/build
+.PHONY : Spawn_turtle/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -291,6 +304,19 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 geometry_msgs_generate_messages_py/fast:
 	$(MAKE) -f agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named pubvel_toggle
+
+# Build rule for target.
+pubvel_toggle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pubvel_toggle
+.PHONY : pubvel_toggle
+
+# fast build rule for target.
+pubvel_toggle/fast:
+	$(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/build
+.PHONY : pubvel_toggle/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -449,19 +475,6 @@ std_srvs_generate_messages_py/fast:
 .PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named subpose
-
-# Build rule for target.
-subpose: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 subpose
-.PHONY : subpose
-
-# fast build rule for target.
-subpose/fast:
-	$(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/build
-.PHONY : subpose/fast
-
-#=============================================================================
 # Target rules for targets named turtlesim_generate_messages_cpp
 
 # Build rule for target.
@@ -521,9 +534,11 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... Spawn_turtle"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... pubvel_toggle"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
@@ -536,7 +551,6 @@ help:
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_py"
-	@echo "... subpose"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_py"

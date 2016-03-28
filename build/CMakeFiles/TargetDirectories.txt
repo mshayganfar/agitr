@@ -1,3 +1,4 @@
+/home/mohammad/catkin_ws/build/agitr/CMakeFiles/Spawn_turtle.dir
 /home/mohammad/catkin_ws/build/CMakeFiles/clean_test_results.dir
 /home/mohammad/catkin_ws/build/CMakeFiles/clean_test_results_Project.dir
 /home/mohammad/catkin_ws/build/CMakeFiles/download_extra_data.dir
@@ -7,6 +8,7 @@
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/mohammad/catkin_ws/build/gtest/CMakeFiles/gtest.dir
 /home/mohammad/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
+/home/mohammad/catkin_ws/build/agitr/CMakeFiles/pubvel_toggle.dir
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/roscpp_generate_messages_cpp.dir
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/roscpp_generate_messages_lisp.dir
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/roscpp_generate_messages_py.dir
@@ -20,7 +22,6 @@
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/std_srvs_generate_messages_py.dir
-/home/mohammad/catkin_ws/build/agitr/CMakeFiles/subpose.dir
 /home/mohammad/catkin_ws/build/CMakeFiles/tests.dir
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir
 /home/mohammad/catkin_ws/build/agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir

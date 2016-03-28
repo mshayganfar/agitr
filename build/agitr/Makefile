@@ -150,6 +150,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+agitr/CMakeFiles/Spawn_turtle.dir/rule:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/Spawn_turtle.dir/rule
+.PHONY : agitr/CMakeFiles/Spawn_turtle.dir/rule
+
+# Convenience name for target.
+Spawn_turtle: agitr/CMakeFiles/Spawn_turtle.dir/rule
+.PHONY : Spawn_turtle
+
+# fast build rule for target.
+Spawn_turtle/fast:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/build
+.PHONY : Spawn_turtle/fast
+
+# Convenience name for target.
 agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
 	cd /home/mohammad/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
@@ -190,6 +204,20 @@ geometry_msgs_generate_messages_py: agitr/CMakeFiles/geometry_msgs_generate_mess
 geometry_msgs_generate_messages_py/fast:
 	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/pubvel_toggle.dir/rule:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/pubvel_toggle.dir/rule
+.PHONY : agitr/CMakeFiles/pubvel_toggle.dir/rule
+
+# Convenience name for target.
+pubvel_toggle: agitr/CMakeFiles/pubvel_toggle.dir/rule
+.PHONY : pubvel_toggle
+
+# fast build rule for target.
+pubvel_toggle/fast:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/build
+.PHONY : pubvel_toggle/fast
 
 # Convenience name for target.
 agitr/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
@@ -360,20 +388,6 @@ std_srvs_generate_messages_py/fast:
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Convenience name for target.
-agitr/CMakeFiles/subpose.dir/rule:
-	cd /home/mohammad/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/subpose.dir/rule
-.PHONY : agitr/CMakeFiles/subpose.dir/rule
-
-# Convenience name for target.
-subpose: agitr/CMakeFiles/subpose.dir/rule
-.PHONY : subpose
-
-# fast build rule for target.
-subpose/fast:
-	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/build
-.PHONY : subpose/fast
-
-# Convenience name for target.
 agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule:
 	cd /home/mohammad/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
 .PHONY : agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/rule
@@ -415,29 +429,53 @@ turtlesim_generate_messages_py/fast:
 	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/turtlesim_generate_messages_py.dir/build.make agitr/CMakeFiles/turtlesim_generate_messages_py.dir/build
 .PHONY : turtlesim_generate_messages_py/fast
 
-subpose.o: subpose.cpp.o
-.PHONY : subpose.o
+Spawn_turtle.o: Spawn_turtle.cpp.o
+.PHONY : Spawn_turtle.o
 
 # target to build an object file
-subpose.cpp.o:
-	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/subpose.cpp.o
-.PHONY : subpose.cpp.o
+Spawn_turtle.cpp.o:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/Spawn_turtle.cpp.o
+.PHONY : Spawn_turtle.cpp.o
 
-subpose.i: subpose.cpp.i
-.PHONY : subpose.i
+Spawn_turtle.i: Spawn_turtle.cpp.i
+.PHONY : Spawn_turtle.i
 
 # target to preprocess a source file
-subpose.cpp.i:
-	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/subpose.cpp.i
-.PHONY : subpose.cpp.i
+Spawn_turtle.cpp.i:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/Spawn_turtle.cpp.i
+.PHONY : Spawn_turtle.cpp.i
 
-subpose.s: subpose.cpp.s
-.PHONY : subpose.s
+Spawn_turtle.s: Spawn_turtle.cpp.s
+.PHONY : Spawn_turtle.s
 
 # target to generate assembly for a file
-subpose.cpp.s:
-	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/subpose.cpp.s
-.PHONY : subpose.cpp.s
+Spawn_turtle.cpp.s:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/Spawn_turtle.cpp.s
+.PHONY : Spawn_turtle.cpp.s
+
+pubvel_toggle.o: pubvel_toggle.cpp.o
+.PHONY : pubvel_toggle.o
+
+# target to build an object file
+pubvel_toggle.cpp.o:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/pubvel_toggle.cpp.o
+.PHONY : pubvel_toggle.cpp.o
+
+pubvel_toggle.i: pubvel_toggle.cpp.i
+.PHONY : pubvel_toggle.i
+
+# target to preprocess a source file
+pubvel_toggle.cpp.i:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/pubvel_toggle.cpp.i
+.PHONY : pubvel_toggle.cpp.i
+
+pubvel_toggle.s: pubvel_toggle.cpp.s
+.PHONY : pubvel_toggle.s
+
+# target to generate assembly for a file
+pubvel_toggle.cpp.s:
+	cd /home/mohammad/catkin_ws/build && $(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/pubvel_toggle.cpp.s
+.PHONY : pubvel_toggle.cpp.s
 
 # Help Target
 help:
@@ -445,6 +483,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Spawn_turtle"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -453,6 +492,7 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... pubvel_toggle"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
@@ -466,14 +506,16 @@ help:
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_py"
-	@echo "... subpose"
 	@echo "... test"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_py"
-	@echo "... subpose.o"
-	@echo "... subpose.i"
-	@echo "... subpose.s"
+	@echo "... Spawn_turtle.o"
+	@echo "... Spawn_turtle.i"
+	@echo "... Spawn_turtle.s"
+	@echo "... pubvel_toggle.o"
+	@echo "... pubvel_toggle.i"
+	@echo "... pubvel_toggle.s"
 .PHONY : help
 
 

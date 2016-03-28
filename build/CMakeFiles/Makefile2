@@ -261,7 +261,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mohammad/catkin_ws/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mohammad/catkin_ws/build/CMakeFiles  2
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -292,7 +292,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mohammad/catkin_ws/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mohammad/catkin_ws/build/CMakeFiles  3
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -320,13 +320,16 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory agitr
 
 # Convenience name for "all" pass in the directory.
-agitr/all: agitr/CMakeFiles/subpose.dir/all
+agitr/all: agitr/CMakeFiles/Spawn_turtle.dir/all
+agitr/all: agitr/CMakeFiles/pubvel_toggle.dir/all
 .PHONY : agitr/all
 
 # Convenience name for "clean" pass in the directory.
+agitr/clean: agitr/CMakeFiles/Spawn_turtle.dir/clean
 agitr/clean: agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 agitr/clean: agitr/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 agitr/clean: agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+agitr/clean: agitr/CMakeFiles/pubvel_toggle.dir/clean
 agitr/clean: agitr/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 agitr/clean: agitr/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 agitr/clean: agitr/CMakeFiles/roscpp_generate_messages_py.dir/clean
@@ -339,7 +342,6 @@ agitr/clean: agitr/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 agitr/clean: agitr/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 agitr/clean: agitr/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 agitr/clean: agitr/CMakeFiles/std_srvs_generate_messages_py.dir/clean
-agitr/clean: agitr/CMakeFiles/subpose.dir/clean
 agitr/clean: agitr/CMakeFiles/turtlesim_generate_messages_cpp.dir/clean
 agitr/clean: agitr/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean
 agitr/clean: agitr/CMakeFiles/turtlesim_generate_messages_py.dir/clean
@@ -348,6 +350,41 @@ agitr/clean: agitr/CMakeFiles/turtlesim_generate_messages_py.dir/clean
 # Convenience name for "preinstall" pass in the directory.
 agitr/preinstall:
 .PHONY : agitr/preinstall
+
+#=============================================================================
+# Target rules for target agitr/CMakeFiles/Spawn_turtle.dir
+
+# All Build rule for target.
+agitr/CMakeFiles/Spawn_turtle.dir/all:
+	$(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/depend
+	$(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mohammad/catkin_ws/build/CMakeFiles  1
+	@echo "Built target Spawn_turtle"
+.PHONY : agitr/CMakeFiles/Spawn_turtle.dir/all
+
+# Include target in all.
+all: agitr/CMakeFiles/Spawn_turtle.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+agitr/CMakeFiles/Spawn_turtle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohammad/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/Spawn_turtle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohammad/catkin_ws/build/CMakeFiles 0
+.PHONY : agitr/CMakeFiles/Spawn_turtle.dir/rule
+
+# Convenience name for target.
+Spawn_turtle: agitr/CMakeFiles/Spawn_turtle.dir/rule
+.PHONY : Spawn_turtle
+
+# clean rule for target.
+agitr/CMakeFiles/Spawn_turtle.dir/clean:
+	$(MAKE) -f agitr/CMakeFiles/Spawn_turtle.dir/build.make agitr/CMakeFiles/Spawn_turtle.dir/clean
+.PHONY : agitr/CMakeFiles/Spawn_turtle.dir/clean
+
+# clean rule for target.
+clean: agitr/CMakeFiles/Spawn_turtle.dir/clean
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target agitr/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
@@ -440,6 +477,41 @@ agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target agitr/CMakeFiles/pubvel_toggle.dir
+
+# All Build rule for target.
+agitr/CMakeFiles/pubvel_toggle.dir/all:
+	$(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/depend
+	$(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mohammad/catkin_ws/build/CMakeFiles  4
+	@echo "Built target pubvel_toggle"
+.PHONY : agitr/CMakeFiles/pubvel_toggle.dir/all
+
+# Include target in all.
+all: agitr/CMakeFiles/pubvel_toggle.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+agitr/CMakeFiles/pubvel_toggle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohammad/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/pubvel_toggle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohammad/catkin_ws/build/CMakeFiles 0
+.PHONY : agitr/CMakeFiles/pubvel_toggle.dir/rule
+
+# Convenience name for target.
+pubvel_toggle: agitr/CMakeFiles/pubvel_toggle.dir/rule
+.PHONY : pubvel_toggle
+
+# clean rule for target.
+agitr/CMakeFiles/pubvel_toggle.dir/clean:
+	$(MAKE) -f agitr/CMakeFiles/pubvel_toggle.dir/build.make agitr/CMakeFiles/pubvel_toggle.dir/clean
+.PHONY : agitr/CMakeFiles/pubvel_toggle.dir/clean
+
+# clean rule for target.
+clean: agitr/CMakeFiles/pubvel_toggle.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -812,41 +884,6 @@ agitr/CMakeFiles/std_srvs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: agitr/CMakeFiles/std_srvs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target agitr/CMakeFiles/subpose.dir
-
-# All Build rule for target.
-agitr/CMakeFiles/subpose.dir/all:
-	$(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/depend
-	$(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mohammad/catkin_ws/build/CMakeFiles  3
-	@echo "Built target subpose"
-.PHONY : agitr/CMakeFiles/subpose.dir/all
-
-# Include target in all.
-all: agitr/CMakeFiles/subpose.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-agitr/CMakeFiles/subpose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohammad/catkin_ws/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/subpose.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohammad/catkin_ws/build/CMakeFiles 0
-.PHONY : agitr/CMakeFiles/subpose.dir/rule
-
-# Convenience name for target.
-subpose: agitr/CMakeFiles/subpose.dir/rule
-.PHONY : subpose
-
-# clean rule for target.
-agitr/CMakeFiles/subpose.dir/clean:
-	$(MAKE) -f agitr/CMakeFiles/subpose.dir/build.make agitr/CMakeFiles/subpose.dir/clean
-.PHONY : agitr/CMakeFiles/subpose.dir/clean
-
-# clean rule for target.
-clean: agitr/CMakeFiles/subpose.dir/clean
 .PHONY : clean
 
 #=============================================================================

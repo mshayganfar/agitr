@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohammad/catkin_ws/src/agitr/pubvel_toggle.cpp
+ros/ros.h
+-
+std_srvs/Empty.h
+-
+geometry_msgs/Twist.h
+-
+

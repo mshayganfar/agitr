@@ -123,7 +123,9 @@ catkin_package(
 ## Declare a C++ executable
 #add_executable(hello hello.cpp)
 #add_executable(pubvel pubvel.cpp)
-add_executable(subpose subpose.cpp)
+#add_executable(subpose subpose.cpp)
+add_executable(Spawn_turtle Spawn_turtle.cpp)
+add_executable(pubvel_toggle pubvel_toggle.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -132,7 +134,9 @@ add_executable(subpose subpose.cpp)
 ## Specify libraries to link a library or executable target against
 #target_link_libraries(hello ${catkin_LIBRARIES})
 #target_link_libraries(pubvel ${catkin_LIBRARIES})
-target_link_libraries(subpose ${catkin_LIBRARIES})
+#target_link_libraries(subpose ${catkin_LIBRARIES})
+target_link_libraries(Spawn_turtle ${catkin_LIBRARIES})
+target_link_libraries(pubvel_toggle ${catkin_LIBRARIES})
 
 #############
 ## Install ##
